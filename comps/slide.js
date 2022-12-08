@@ -68,6 +68,7 @@ const handleClick2 =()=>{
 }
     return (
     <div id = "sponsorssec" className="items-center flex justify-around grow w-[65%] mx-auto">
+
             <button className="w-[5%] inline-block order-first" onClick={handleClick1}><img src="/slider.svg" alt="arrow" className="w-full" /></button>
             <div className={style1}>
                 <a href="https://www.decathlon.com.dz/" target="_blank">
