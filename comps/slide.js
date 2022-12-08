@@ -88,6 +88,6 @@ const handleClick2 =()=>{
 
     </div>  );
 
-}//
+}
  
 export default Slide;
