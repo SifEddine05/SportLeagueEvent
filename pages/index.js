@@ -11,7 +11,7 @@ import Sponsors from './Sponsors'
 
 export default function Home() {
   return (
-    <div className='flex flex-col'>
+    <div className=''>
        <Hm />
        <About />
        <Sponsors />
