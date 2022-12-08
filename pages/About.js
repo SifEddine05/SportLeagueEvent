@@ -1,6 +1,7 @@
 import Image from "next/image";
 const About = () => {
     return ( 
+
     <div id="aboutsec" className="flex flex-row justify-center py-[15%] bg-[#EFF7FB] items-center w-screen">
         <div className="w-[70%] lg:w-[50%] lg:pr-4 md:pr-3 sm:pr-2 pr-1">
             <h3 className="lg:text-[30px] md:text-[25px] sm:text-[20px] text-[#FFC600] mb-8 font-bold">About</h3>

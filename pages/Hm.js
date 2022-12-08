@@ -3,6 +3,7 @@ import Nav from '../comps/Nav';
 
 function Hm(props) {
     return (
+
         <div className="w-screen lg:h-screen flex flex-col items-center">
             <Nav />
             <div className="flex flex-col w-full lg:h-full justify-center items-center bg-red-00 bg-[#EFF7FB] py-[5%] lg:py-0">

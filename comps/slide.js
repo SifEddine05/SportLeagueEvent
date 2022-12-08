@@ -21,8 +21,8 @@ const handleClick1 =()=>{
     {   if(j==2)
         {
             setj(3)
-           setstyle2(' z-0 rounded-full w-[20%] transform translate-x-[120%] duration-700 p-[2%] inline-block')
-            setstyle3(' z-10 rounded-full  w-[20%] transform translate-x-[-280%] duration-700 p-[2%] inline-block')
+           setstyle2(' z-0 rounded-full w-[20%] transform translate-x-[110%] duration-700 p-[2%] inline-block')
+            setstyle3(' z-10 rounded-full  w-[20%] transform translate-x-[-290%] duration-700 p-[2%] inline-block')
             setstyle1('z-20 rounded-full  w-[30%] transform translate-x-[80%] duration-700 p-[2%] inline-block')
 
         } else
@@ -40,8 +40,8 @@ const handleClick2 =()=>{
     if(j==1 )
     {
         setj(3);
-        setstyle2('z-20  rounded-full w-[20%] transform translate-x-[120%] duration-700 p-[2%] inline-block')
-        setstyle3('z-10 rounded-full  w-[20%] transform translate-x-[-280%] duration-700 p-[2%] inline-block')
+        setstyle2('z-20  rounded-full w-[20%] transform translate-x-[110%] duration-700 p-[2%] inline-block')
+        setstyle3('z-10 rounded-full  w-[20%] transform translate-x-[-290%] duration-700 p-[2%] inline-block')
         setstyle1('z-20 rounded-full  w-[30%] transform translate-x-[80%] duration-700 p-[2%] inline-block')
        
         
@@ -52,8 +52,6 @@ const handleClick2 =()=>{
         setstyle2('z-20 rounded-full w-[30%] transform translate-x-[-6%] duration-700 p-[2%] inline-block')
         setstyle3('z-20 rounded-full w-[20%] transform translate-x-[-10%] duration-700 p-[2%] inline-block')
         setstyle1('z-10 rounded-full w-[20%] transform translate-x-[-8%] duration-700 p-[2%] inline-block')
-            
-            
 
         } else
         {
@@ -69,7 +67,8 @@ const handleClick2 =()=>{
    
 }
     return (
-    <div id = "sponsorssec" className="items-center flex justify-around grow w-[75%] mx-auto">-       
+    <div id = "sponsorssec" className="items-center flex justify-around grow w-[65%] mx-auto">
+
             <button className="w-[5%] inline-block order-first" onClick={handleClick1}><img src="/slider.svg" alt="arrow" className="w-full" /></button>
             <div className={style1}>
                 <a href="https://www.decathlon.com.dz/" target="_blank">
