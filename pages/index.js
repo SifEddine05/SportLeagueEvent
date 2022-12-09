@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Nav from '../comps/Nav'
+
 import About from './About'
 import Faq from './FAQ'
 import Footer from './footer'
@@ -24,12 +25,13 @@ export default function Home() {
     <div className='relative'>
       <div className="fixed top-0 z-40"><Nav /></div>
        
+       
        <Hm />
        <About />
        <Speakers />
-       <Faq />
        <Agenda />
        <Sponsors />
+       <Faq />
        <Footer />
 
     </div>
