@@ -50,6 +50,7 @@ const handlClick =()=>{
                     
                     <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold lg:ml-12 md:ml-9 sm:ml-6 ml-3 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2xl md:text-md sm:text-sm text-[8px] lg:text-lg">Sign Up</div>
                 </div>
+
             </div>
             <div className=' flex justify-start sm:hidden inline'>
             {style&& <div className='sm:hidden inline'>
