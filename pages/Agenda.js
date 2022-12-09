@@ -27,13 +27,13 @@ export default function App() {
   };
 
   return (
-    <div className="w-screen bg-[#EFF7FB]">
+    <div id ="agendasec" className="w-screen bg-[#EFF7FB]">
       <Swiper
         pagination={pagination}
         modules={[Pagination]}
         className="mySwiper"
       >
-        {agenda.map((ag) => <SwiperSlide><div className="py-24"><AgEv time = {ag.time} title = {ag.title} description = {ag.description}/> <AgEv time = {ag.time} title = {ag.title} description = {ag.description}/> <AgEv time = {ag.time} title = {ag.title} description = {ag.description}/> <AgEv time = {ag.time} title = {ag.title} description = {ag.description}/></div></SwiperSlide>)}
+        {agenda.map((ag) => <SwiperSlide ><div className="py-24"><AgEv time = {ag.time} title = {ag.title} description = {ag.description}/> <AgEv time = {ag.time} title = {ag.title} description = {ag.description}/> <AgEv time = {ag.time} title = {ag.title} description = {ag.description}/> <AgEv time = {ag.time} title = {ag.title} description = {ag.description}/></div></SwiperSlide>)}
 
       </Swiper>
     </div>

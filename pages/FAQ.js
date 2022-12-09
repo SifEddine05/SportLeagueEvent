@@ -32,7 +32,7 @@ const questions =[
 const Faq = () => {
     
     return (
-        <div className="bg-[#EFF7FB] py-[10%] ">
+        <div id= "faqsec" className="bg-[#EFF7FB] py-[10%] ">
             <div className="  mx-auto  ">
             <h3 className="lg:text-[40px] md:text-[31px] sm:text-[24px] text-[20px] text-center text-[#FFC600] mb-[5%] font-bold">FAQ</h3>
 
