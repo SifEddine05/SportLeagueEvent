@@ -10,7 +10,7 @@ const Question = ({qustion , answer}) => {
     return ( 
     <div className="mb-[5%]">
         <div onClick={handleClick} className="hover:cursor-pointer shadow-lg flex justify-between items-center bg-[#1E96FC] bg-opacity-25 p-2 rounded-2xl">
-                <h3 className="lg:text-[22px] md:text-[18px] ml-[1%] w-[65%] sm:text-[14px] text-[10px] font-bold">{qustion}</h3>
+                <h3 className="lg:text-[22px] md:text-[18px] ml-[1%] w-[65%] sm:text-[14px] text-[11px] font-bold">{qustion}</h3>
                 <button  onClick={handleClick} className="flex justify-end w-[35%]" >
                 {!click && <img src="down-arrow.png" alt="arrdwn"  className="w-[10%]"/> }
                     {click && <img src="up-arrow.png" alt="arrdwn"  className="w-[10%]"/> }
