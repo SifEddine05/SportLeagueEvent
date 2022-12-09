@@ -5,7 +5,12 @@ module.exports = {
     "./comps/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "Spantaran": ['Spantaran', 'serif'], 
+        "Consolas" :["Consolas",'serif']
+      },
+    },
   },
   plugins: [require("daisyui")],
 }
