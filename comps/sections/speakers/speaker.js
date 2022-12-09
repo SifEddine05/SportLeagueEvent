@@ -10,7 +10,7 @@ const Speaker = ({name,description,image}) => {
                 <div className="w-full">
                      <img src={image} alt="speaker" className="rounded-lg  " />
                 </div>
-                <h3 className="lg:text-[15px] md:text-[12px] sm:text-[10px] text-[8px] font-medium text-center mt-1 text-cyan-800 ">{name}</h3>
+                <h3 className="lg:text-[15px] md:text-[12px] sm:text-[10px] text-[8px] font-bold text-center mt-1 text-cyan-800 ">{name}</h3>
             </div> 
            <div  className="swap-on fill-current flex  focus:bg-black justify-center items-center hover:p-0">
             <div className="mask mask-circle w-[200px] px-4">

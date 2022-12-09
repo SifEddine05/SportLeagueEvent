@@ -7,7 +7,6 @@ import "swiper/css/navigation";
 
 
 
-// import required modules
 import { Navigation } from "swiper";
 import Speaker from "./speaker";
 
@@ -39,7 +38,7 @@ export default function Speakers() {
   return (
     <div id="speakerssec" className="bg-[#EFF7FB] py-[10%] ">
             <div className="lg:w-[900px] w-[600px] mx-auto bg-[#EFF7FB]">
-            <h3 className="lg:text-[40px] md:text-[32px] sm:text-[24px] text-[20px] text-[#FFC600] lg:mb-7 md:mb-5 sm:mb-3 mb-1 font-bold text-center mb-8">Our Speakers </h3>
+            <h3 className="lg:text-[40px] md:text-[32px] sm:text-[24px] text-[20px] text-[#FFC600] lg:mb-7 md:mb-5 sm:mb-3 mb-[10%] font-bold text-center">Our Speakers </h3>
         <Swiper
             rewind={true}
             navigation={true}

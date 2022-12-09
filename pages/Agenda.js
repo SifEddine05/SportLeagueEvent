@@ -81,7 +81,7 @@ export default function App() {
           {time: "19:30 - 20:30", title: "hacking", description: "machine learning"},
           {time: "20:00 - 21:00", title: "dinner break", description: "machine learning"},
           {time: "21:00 - 23:00", title: "hacking", description: "machine learning"},
-          {time: "02:00 - 07:00", title: "pause", description: "machine learning"}
+          {time: "23:00 - 07:00", title: "pause", description: "machine learning"}
           ]
 
 
@@ -107,7 +107,7 @@ export default function App() {
   };
 
   return (
-    <div  id ="agendasec" className="w-screen bg-[#EFF7FB]">
+    <div  id ="agendasec" className="w-screen bg-[#EFF7FB] pt-20">
       <h3  className="lg:text-[40px] md:text-[31px] sm:text-[24px] text-[20px] text-center text-[#FFC600] font-bold">Agenda</h3>
 
           <Swiper
