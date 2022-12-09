@@ -34,7 +34,7 @@ const Faq = () => {
     return (
         <div id= "faqsec" className="bg-[#EFF7FB] py-32 ">
             <div className="  mx-auto  ">
-            <h3 className="lg:text-[40px] md:text-[31px] sm:text-[24px] text-[20px] text-center text-[#FFC600] mb-[5%] font-bold">FAQ</h3>
+            <h3 className="lg:text-[40px] md:text-[32px] sm:text-[24px] text-[20px] text-[#FFC600] lg:mb-7 md:mb-5 sm:mb-3 mb-[10%] font-bold text-center">FAQ </h3>
 
                 <div className="w-[50%] bg-[#EFF7FB] mx-auto  ">
                     {questions.map((elem)=>{

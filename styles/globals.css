@@ -19,7 +19,9 @@
 
 html{
   scroll-behavior: smooth !important;
+  font-family: "Consolas";
 }
+
 .bord{
   border-radius: 48px 48px 300px 48px;
 }
