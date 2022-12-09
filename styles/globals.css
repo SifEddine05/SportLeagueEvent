@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 
+  @font-face {
+    
+    font-family: "Spantaran" ;
+    src: url("./spantaran/Spantaran (demo).ttf") format ("ttf");
+  }
+  @font-face {
+    
+    font-family: "Consolas" ;
+    src: url("./Consolas-Font/CONSOLA.TTF") format ("ttf");
+  }
+
+
+
+
 html{
   scroll-behavior: smooth !important;
 }
