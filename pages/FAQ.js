@@ -36,7 +36,7 @@ const Faq = () => {
             <div className="  mx-auto  ">
             <h3 className="lg:text-[40px] md:text-[31px] sm:text-[24px] text-[20px] text-center text-[#FFC600] mb-[5%] font-bold">FAQ</h3>
 
-                <div className="w-[50%] bg-[#EFF7FB] mx-auto  ">
+                <div className="w-[60%] bg-[#EFF7FB] mx-auto  ">
                     {questions.map((elem)=>{
                         return(<Question qustion={elem.qustion} answer={elem.answer} />)
                     })}
