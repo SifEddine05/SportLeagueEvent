@@ -18,9 +18,9 @@ function Notfound(props) {
     return (
         <div className="flex flex-col justify-center items-center h-screen w-screen bg-[#01032A]">
             <h3 className="font-bold text-white">This page is not ready</h3>
-            <h3 className="font-bold text-white">You will be redirected to the main page in {count} seconds</h3>
+            <h3 className="font-bold text-white text-center w-[80%] md:w-fit">You will be redirected to the main page in {count} seconds</h3>
             <h3 className="py-7 text-sm text-white">with best regards / ESMS team 17 </h3>
-            <div className="w-[5%] h-[5%]">
+            <div className="sm:w-[200px] sm:h-[200px] w-[30%] h-[30%]">
             <img src="/cse.svg" alt="" />
             </div>
 
