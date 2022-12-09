@@ -8,8 +8,7 @@ function Hm(props) {
         <div className="w-screen  flex flex-col items-center">
             <div className="flex flex-col w-full lg:h-full justify-center items-center bg-red-00 bg-[#EFF7FB] pt-[12%] ">
               <div className="rounded-tl-[48px] rounded-tr-[48px] rounded-br-[200px] lg:rounded-br-[300px] rounded-bl-[48px] w-[80%] lg:h-[65%] h-[300px] bg-[#1E96FC] flex flex-col overflow-auto">
-                    <div className="font-bold text-white text-[3vw] italic ml-[10%] mt-[2.5%]">Develop your skills </div>
-                        <div className="font-bold text-white text-[3vw] italic ml-[10%]">with Tech LEAGUE </div> 
+                    <div className="font-bold text-white text-[3vw] italic w-[65%] ml-[10%] mt-[2.5%]">Explore , Compete and improve your skills with TECH-LEAGUE ! </div>
                         <div className="flex flex-row justify-between ">
                             <div className="flex flex-col gap-[10%] justify-center mt-[2%] w-[27%] ml-[15%] ">
                                 <div className="flex flex-row">
