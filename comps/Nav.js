@@ -30,7 +30,7 @@ function Nav(props) {
                     <div className="cursor-pointer px-3 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl text-sm lg:text-lg">Contact Us</div>
                 </Link>
                 
-                <Link href="ffe">
+                <Link href="error">
                      <div className="cursor-pointer px-3 lg:py-1 py-2 font-semibold ml-12 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2xl text-sm lg:text-lg">Sign Up</div>
                 </Link>
             </div>

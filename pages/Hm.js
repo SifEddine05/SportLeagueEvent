@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../comps/Nav';
+import Link from 'next/link';
 
 
 function Hm(props) {
@@ -25,7 +26,9 @@ function Hm(props) {
                                 {/* <Image src="/position.svg" width={67} height={67} className="pr-[10%]"/> */}
                                     <div className="font-semibold text-white text-[1vw] my-auto"> Oued Smar, Algiers </div> 
                                 </div>
-                                <div className="cursor-pointer bg-[#FFB703] w-[60%] py-[1%] rounded-2xl text-center text-[1.5vw] font-semibold text-white mt-[5%] hover:bg-white hover:text-[#135286]">Get started</div>
+                                <Link href="err">
+                                     <div className="cursor-pointer bg-[#FFB703] w-[60%] py-[1%] rounded-2xl text-center text-[1.5vw] font-semibold text-white mt-[5%] hover:bg-white hover:text-[#135286]">Get started</div>
+                                </Link>
                             </div>
                             <div className="w-[15%] h-[15%] mr-[10%] mb-10">
                                 <img src="/cse.svg" alt="" />
