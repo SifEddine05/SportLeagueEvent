@@ -22,7 +22,7 @@ const handlClick =()=>{
     return (
     <div>
         <div className=" w-screen flex flex-row justify-between pb-2 lg:pb-3 bg-white lg:bg-red shadow-md">
-            <Image src ="/logo.svg" width={50} height={50} className="ml-8 pt-2"/>
+            <Image src ="/logo.svg" width={50} height={50} className="lg:ml-8 md:ml-6 sm:ml-4 ml-2 pt-2"/>
             <div className='sm:inline hidden'>
                 <div className="flex   flex-row gap-1 md:gap-3 sm:gap-2 lg:gap-5 pt-2 lg:mr-12 md:mr-9 sm:mr-7 mr-5  mt-3">
                 <Link href="/">
@@ -54,35 +54,35 @@ const handlClick =()=>{
             </div>
             <div className=' flex justify-start sm:hidden'>
             {style&& <div className='sm:hidden inline'>
-                <div className="flex   flex-row justify-center items-center gap-1 md:gap-3 sm:gap-2 lg:gap-5 pt-2 lg:mr-12 md:mr-9 sm:mr-7 mr-5  mt-3">
+                <div className="flex   flex-row justify-center items-center gap-1 md:gap-3 sm:gap-2  lg:gap-5 pt-2 lg:mr-12 md:mr-9 sm:mr-7 mr-5  mt-3">
                 <Link href="/">
-                    <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Home</div>
+                    <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Home</div>
                     </Link>
                     <Link href="#aboutsec">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">About</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">About</div>
                     </Link>
                     <Link href="#speakerssec">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Speakers</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Speakers</div>
                     </Link>
                     <Link href="#agendasec">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Agenda</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Agenda</div>
                     </Link>
                     <Link href="#sponsorssec">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Sponsors</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Sponsors</div>
                     </Link>
                     <Link href="#faqsec">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">FAQ</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">FAQ</div>
                     </Link>
                     <Link href="#footer">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Contact Us</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Contact Us</div>
                     </Link>
                     <Link href="errr">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold lg:ml-12 md:ml-9 sm:ml-6 ml-1 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Sign Up</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold lg:ml-12 md:ml-9 sm:ml-6 ml-1 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Sign Up</div>
                     </Link>
                     
                 </div>
             </div> }
-            <button className=' ml-1 sm:hidden inline ' onClick={handlClick}  ><img src="/Menu1.png" alt="menu icon "  className='w-[25px] mr-4 pt-2' /></button>
+            <button className=' ml-1 sm:hidden inline ' onClick={handlClick}  ><img src="/Menu1.png" alt="menu icon "  className='w-[25px] sm:mr-4 mr-2 pt-2' /></button>
 
                 
             </div>

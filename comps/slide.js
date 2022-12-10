@@ -67,7 +67,7 @@ const handleClick2 =()=>{
    
 }
     return (
-    <div className="items-center flex justify-around grow w-[70%] h-[250px] mx-auto">
+    <div className="items-center flex justify-around grow md:w-[70%] md:h-[250px] w-[90%] h-[150px] mx-auto">
 
             <button className="w-[5%] inline-block order-first" onClick={handleClick1}><img src="/slider.svg" alt="arrow" className="w-full" /></button>
             <div className={style1}>
