@@ -9,7 +9,7 @@ collaborative event between CSE and the Ministry of Youth and Sports, that will 
 
 ## Demo
 
-link to demo : https://sport-league-event.vercel.app/
+link to demo :https://sportleagueevent.netlify.app/
 
 
 ## Installation
