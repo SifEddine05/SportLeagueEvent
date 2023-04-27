@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Image
  from 'next/image';
  import Link from 'next/link';
@@ -92,5 +92,97 @@ const handlClick =()=>{
                
     );
 }
+
+export default Nav;
+
+*/
+import LogoEvent from "../public/logo.svg";
+import { useState } from "react";
+import menu from "../public/Menu1.png";
+import cancel from "../public/Menu1.png";
+
+const navLinks = [
+  { name: "About", link: "#aboutsec" },
+  { name: "Speakers", link: "#speakerssec" },
+  { name: "Agenda", link: "#agendasec" },
+  { name: "Sponsors", link: "#sponsorssec" },
+  {name:"Faq",link:"#faqsec"},
+  { name: "About us", link: "#footer" },
+  { name: "Sign Up", link: "errr" },
+
+  /* TO DO : unhide sponsors when we get one */
+  // { name: "Sponsors", link: "#sponsors" },
+];
+
+const Nav = () => {
+
+
+  const [menuActive, setMenuActive] = useState(false);
+
+  const handleClick = () => {
+    setMenuActive(false);
+  };
+
+  return (
+    <div className="w-full fixed top-0 h-[60px] bg-dark-green z-50 ">
+      <div className="bg-dark-green w-full px-8 md:px-16 py-4 flex justify-between items-center  ">
+        <a href="#">
+          <img
+            src="/logo.svg"
+            alt="Logo Event"
+            className="lg:w-[100px] md:w-[80px] sm:w-[60px] w-[40px]"
+          />
+        </a>
+        <div className="xl:flex justify-center items-center lg:gap-14 md:gap-10 sm:gap-6 text-[18px] font-semibold hidden text-black">
+          {navLinks.map((link) => (
+            <a
+              href={link.link}
+              key={link.name}
+              className="hover:text-blue-800"
+            >
+              {link.name}
+            </a>
+          ))}
+        </div>
+        {/* TO DO : unhide join us btn */}
+
+        {!menuActive && (
+          <button
+            className="w-[30px] xl:hidden block"
+            onClick={() => setMenuActive(true)}
+          >
+            <img src="/Menu1.png" alt="menu" className="w-full" />
+          </button>
+        )}
+        {menuActive && (
+          <button
+            className="w-[30px] xl:hidden block"
+            onClick={() => setMenuActive(false)}
+          >
+            <img src="/Menu1.png" alt="menu" className="w-full" />
+          </button>
+        )}
+      </div>
+      <div
+        className={`bg-[#1E96FC] xl:hidden fixed z-5 transition-transform top-[60px] -right-[100vw] ${
+          menuActive && "-translate-x-[100vw]"
+        } w-[100%] h-fit p-6 flex flex-col gap-6 text-lg text-primary capitalize xl:static xl:flex-row xl:h-fit xl:w-fit xl:items-center xl:text-base xl:gap-12`}
+      >
+        <div className="h-fit py-6 flex flex-col justify-start items-center gap-4 font-semibold  text-black">
+          {navLinks.map((link) => (
+            <a
+              href={link.link}
+              key={link.name}
+              className="hover:text-blue-800"
+              onClick={handleClick}
+            >
+              {link.name}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Nav;
