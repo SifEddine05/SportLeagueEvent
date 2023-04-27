@@ -26,28 +26,28 @@ const handlClick =()=>{
             <div className='sm:inline hidden'>
                 <div className="flex   flex-row gap-1 md:gap-3 sm:gap-2 lg:gap-5 pt-2 lg:mr-12 md:mr-9 sm:mr-7 mr-5  mt-3">
                 <Link href="/">
-                    <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Home</div>
+                    <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Home</div>
                     </Link>
                     <Link href="#aboutsec">
-                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl md:text-[12px] sm:text-sm text-[9px] lg:text-lg">About</div>
+                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg md:text-[12px] sm:text-sm text-[9px] lg:text-lg">About</div>
                     </Link>
                     <Link href="#speakerssec">
-                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Speakers</div>
+                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Speakers</div>
                     </Link>
                     <Link href="#agendasec">
-                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Agenda</div>
+                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Agenda</div>
                     </Link>
                     <Link href="#sponsorssec">
-                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Sponsors</div>
+                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Sponsors</div>
                     </Link>
                     <Link href="#faqsec">
-                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl md:text-[12px] sm:text-sm text-[9px] lg:text-lg">FAQ</div>
+                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg md:text-[12px] sm:text-sm text-[9px] lg:text-lg">FAQ</div>
                     </Link>
                     <Link href="#footer">
-                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Contact Us</div>
+                        <div className="cursor-pointer md:px-3 px-2 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg md:text-[12px] sm:text-sm text-[9px] lg:text-lg">Contact Us</div>
                     </Link>
                     <Link href="error">
-                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold lg:ml-12 md:ml-9 sm:ml-6 ml-3 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2xl  md:text-[12px] sm:text-sm text-[8px] lg:text-lg">Sign Up</div>
+                        <div className="cursor-pointer md:px-3 px-1 lg:py-1 py-2 font-semibold lg:ml-12 md:ml-9 sm:ml-6 ml-3 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2lg  md:text-[12px] sm:text-sm text-[8px] lg:text-lg">Sign Up</div>
                     </Link>
                 </div>
 
@@ -56,28 +56,28 @@ const handlClick =()=>{
             {style&& <div className='sm:hidden inline'>
                 <div className="flex   flex-row justify-center items-center gap-1 md:gap-3 sm:gap-2  lg:gap-5 pt-2 lg:mr-12 md:mr-9 sm:mr-7 mr-5  mt-3">
                 <Link href="/">
-                    <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Home</div>
+                    <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Home</div>
                     </Link>
                     <Link href="#aboutsec">
-                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">About</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">About</div>
                     </Link>
                     <Link href="#speakerssec">
-                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Speakers</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Speakers</div>
                     </Link>
                     <Link href="#agendasec">
-                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Agenda</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Agenda</div>
                     </Link>
                     <Link href="#sponsorssec">
-                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Sponsors</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Sponsors</div>
                     </Link>
                     <Link href="#faqsec">
-                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">FAQ</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">FAQ</div>
                     </Link>
                     <Link href="#footer">
-                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Contact Us</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold hover:border-2 hover:font-bold border-slate-500 hover:rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-centerlg:text-lg">Contact Us</div>
                     </Link>
                     <Link href="errr">
-                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold lg:ml-12 md:ml-9 sm:ml-6 ml-1 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2xl  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Sign Up</div>
+                        <div className="cursor-pointer md:px-3 sm:px-1 pr-1 lg:py-1 py-2 font-semibold lg:ml-12 md:ml-9 sm:ml-6 ml-1 border-2 hover:font-bold hover:bg-[#1E96FC] hover:text-white border-slate-500 rounded-2lg  md:text-[12px] sm:text-sm text-[9px] text-center lg:text-lg">Sign Up</div>
                     </Link>
                     
                 </div>
@@ -124,16 +124,16 @@ const Nav = () => {
   };
 
   return (
-    <div className="w-full fixed top-0 h-[60px] bg-dark-green z-50 ">
+    <div className="w-full fixed top-0 h-[80px] bg-dark-green z-50 shadow-lg  border-b-2 ">
       <div className="bg-dark-green w-full px-8 md:px-16 py-4 flex justify-between items-center  ">
         <a href="#">
           <img
             src="/logo.svg"
             alt="Logo Event"
-            className="lg:w-[100px] md:w-[80px] sm:w-[60px] w-[40px]"
+            className="w-[60px]  "
           />
         </a>
-        <div className="xl:flex justify-center items-center lg:gap-14 md:gap-10 sm:gap-6 text-[18px] font-semibold hidden text-black">
+        <div className="lg:flex justify-center items-center  lg:gap-14 md:gap-10 sm:gap-6 text-[18px] font-semibold hidden text-black">
           {navLinks.map((link) => (
             <a
               href={link.link}
@@ -148,7 +148,7 @@ const Nav = () => {
 
         {!menuActive && (
           <button
-            className="w-[30px] xl:hidden block"
+            className="w-[30px] lg:hidden block"
             onClick={() => setMenuActive(true)}
           >
             <img src="/Menu1.png" alt="menu" className="w-full" />
@@ -156,7 +156,7 @@ const Nav = () => {
         )}
         {menuActive && (
           <button
-            className="w-[30px] xl:hidden block"
+            className="w-[30px] lg:hidden block"
             onClick={() => setMenuActive(false)}
           >
             <img src="/Menu1.png" alt="menu" className="w-full" />
@@ -164,9 +164,9 @@ const Nav = () => {
         )}
       </div>
       <div
-        className={`bg-[#1E96FC] xl:hidden fixed z-5 transition-transform top-[60px] -right-[100vw] ${
+        className={`bg-[#1E96FC] lg:hidden fixed z-5 transition-transform top-[60px] -right-[100vw] ${
           menuActive && "-translate-x-[100vw]"
-        } w-[100%] h-fit p-6 flex flex-col gap-6 text-lg text-primary capitalize xl:static xl:flex-row xl:h-fit xl:w-fit xl:items-center xl:text-base xl:gap-12`}
+        } w-[100%] h-fit p-6 flex flex-col gap-6 text-lg text-primary capitalize lg:static lg:flex-row lg:h-fit lg:w-fit lg:items-center lg:text-base lg:gap-12`}
       >
         <div className="h-fit py-6 flex flex-col justify-start items-center gap-4 font-semibold  text-black">
           {navLinks.map((link) => (
